@@ -1,0 +1,204 @@
+#home{
+    min-height: 100vh;
+}
+#home #start{
+    background-image: url("/images/homeBackground.jpg");
+    background-position: bottom center;
+    width: 100vw;
+    min-height: 73vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+#home #start article {
+    color: white;
+    font-size: 3vw;
+    
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100vw;
+    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.1); /* Semi-transparent black */
+    backdrop-filter: blur(5px);
+    text-transform: uppercase;
+}
+#home #start article p{
+    font-size: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 3vh;
+}
+#home #procedure{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    font-size: 2vw;
+    padding-top: 2vh;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+}
+#home #steps{
+    /* position: absolute;
+    bottom: -20vh; */
+   
+
+    padding-bottom: 10vh;
+}
+#home #steps ul{
+    background-color: black;
+    color: white;
+    display: flex;
+    min-height: 70vh;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top:0vh;
+
+}
+#home #steps ul li{
+    width: 20vw;
+   text-align: left;
+}
+#home #steps ul li h3{
+    font-size: 1.7vw;
+}
+#home #steps ul li span{
+    font-size: 4vw;
+    padding-right: 0.5vw;
+} 
+#transport{
+    display: flex;
+    margin: 0 7vw;
+    padding: 2vw;
+  
+    
+}
+#transport img{
+    min-width: 40vw;
+    max-width: 50vw;
+   
+}
+#transport section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+#transport h1{
+    font-size: 2.8vw;
+}
+#transport p{
+    font-size: 1.2vw;
+}
+#transport button{
+    padding: 1vw;
+    border-radius: 1vw;
+    background-color: black;
+    border: 2px solid white;
+}
+#transport a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+#currentOffers{
+   
+    height: 70vh;
+   
+    margin-top: 10vh;
+    
+    display: flex;
+    justify-content:space-evenly;
+
+    background-color: lightgray;
+}
+#currentOffers h1{
+    font-size: 5vw;
+}
+#currentOffers p{
+    font-size: 1.5vw;
+}
+#sectionLeft{
+    background-color: black;
+    color: white;
+    width: 50vw;
+    text-align: center;
+    padding-left: 10vw;
+    padding-right: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom-right-radius: 5vw;
+}
+#sectionRight{
+    background-color: lightgray;
+    padding-left: 3vw;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-right: 10vw;
+    text-align: center;
+}
+#sectionRight button{
+    padding: 1vw;
+    border-radius: 1vw;
+    background-color: transparent;
+    border: 2px solid black;
+}
+
+#transportExperts{
+    text-align: center;
+    padding: 5vh 18vw;
+    padding-top:8vh;
+    background-color: lightgray;
+}
+#transportExperts h1{
+    font-size: 3.6vw;
+    padding-bottom: 1vw;
+}
+
+#chooseUs{
+    height: 90vh;
+    
+    
+    /* overflow-y: hidden; */
+   background-image: url("/images/rim.jpg");
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: top;
+}
+#chooseUs h1{
+    text-align: center;
+    font-size: 3.6vw;
+    padding-bottom: 4vh;
+    padding-top: 4vh;
+    background-color: white;
+}
+#chooseUs ul{
+   
+display: flex;
+padding: 0 5vw;
+justify-content: space-between;
+text-align: center;
+background-color: transparent;
+padding-bottom: 3vh;
+color: white;
+padding-top: 3vh;
+}
+#chooseUs i{
+    font-size: 4vw;
+    overflow-y: hidden;
+    margin-bottom: 1vh;
+    
+}

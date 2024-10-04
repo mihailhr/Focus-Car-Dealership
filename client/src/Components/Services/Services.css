@@ -1,0 +1,106 @@
+#start{
+    height: 50vh;
+    background-image: url("/images/deal.jpg");
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}
+#services h3{
+    font-size: 2vw;
+}
+
+#start h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 5vw;
+    width: 100vw;
+    text-align: center;
+    backdrop-filter: blur(5px);
+
+}
+#providedServices,#otherVehicles,#otherServices{
+    text-align: center;
+    padding:5vh 10vw;
+    background-color: lightgray;
+}
+
+#providedServices h1{
+    font-size: 4vw;
+    padding-bottom: 2vh;
+}
+#providedServices p, #otherVehicles p,#otherServices p{
+    padding: 2vh 5vw;
+    text-align: left;
+    text-indent: 2vw;
+}
+
+#canadaAuctions,#USAAuctions,#canadaVehicles,#USAVehicles{
+    text-align: left;
+    padding: 0vh 15vw;
+    color: gray;
+    margin-top: 5vh;
+}
+#canadaAuctions ul,#canadaVehicles ul,#USAVehicles ul{
+    display: flex;
+    margin: 5vh 0;
+    justify-content: space-between;
+    align-items: center;
+}
+#USAAuctions ul{
+    
+        display: flex;
+        margin: 5vh 0;
+        justify-content: space-around;
+        align-items: center;
+    
+}
+#canadaAuctions a, #USAAuctions a,#canadaVehicles a,#USAVehicles a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    text-decoration: none;
+    color: black;
+}
+
+#otherServices{
+    background-color: white;
+   
+    
+}
+#otherServices h3{
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+}
+#satisfaction{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("/images/satisfaction.jpg");
+    
+    width: 100vw;
+    height: 90vh;
+    background-size: cover;
+    background-position: center ;
+    display: flex;
+    padding: 5vh 8vw;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    gap: 3vw;
+    
+    
+    
+}
+#satisfaction p{
+    max-width: 60ch;
+   font-size: 1.2vw;
+
+}
+#satisfaction h1{
+    font-size: 5vw;
+}
+

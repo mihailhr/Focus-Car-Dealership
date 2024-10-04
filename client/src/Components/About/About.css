@@ -1,0 +1,72 @@
+/* #about{
+    height: 80vh;
+   
+} */
+#about section{
+    background-image: url("/images/about\ background.jpg");
+    height: 60vh;
+    background-position: center;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about section h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 4vw;
+}
+#about article ul{
+    margin-top: 10vh;
+    display: flex;
+    width: 100vw;
+   
+ justify-content: space-evenly;
+ margin-bottom: 10vh;
+
+}
+#about article ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vw;
+    
+}
+#about article ul li i{
+    font-size: 6vw;
+    padding-bottom: 1vh;
+    overflow-y: hidden;
+}
+#about article h1{
+    text-align: center;
+    margin-top: 14vh;
+    text-transform: uppercase;
+    margin-bottom: 7vh;
+    font-size: 3.5vw;
+}
+#about article p{
+    padding-bottom: 3vh;
+    max-width: 70ch;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5vw;
+}
+#partners ul{
+    display: flex;
+    justify-content:center;
+    gap: 3vw;
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}
+#partners img{
+    width: 16vw;
+    height: 28vh;
+    background-color: white;
+}
+#partners h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 5vh;
+}

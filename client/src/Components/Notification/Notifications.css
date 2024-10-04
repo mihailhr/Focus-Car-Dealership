@@ -1,0 +1,18 @@
+#notifications {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    color: white;
+    width: 100vw;
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+#notifications p{
+    
+    padding: 1vw;
+   
+}

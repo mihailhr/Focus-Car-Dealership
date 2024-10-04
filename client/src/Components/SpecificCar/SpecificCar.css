@@ -1,0 +1,63 @@
+#interior{
+    width: 100vw;
+    height: 60vh;
+    background-image: url("/images/interior.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+}
+#specifics{
+    margin: 12vh 0;
+    padding: 0 20vw;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+#specifics h1{
+    padding-bottom: 3vh;
+    border-bottom: 3px solid lightgray;
+    font-size: 3vw;
+    margin-bottom: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#specifics h1 button{
+    background-color: transparent;
+    border: none;
+    font-size: 3vw;
+}
+#specifics p{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    font-size: 1.4vw;
+}
+
+#carImages{
+    width: 60vw;
+    height: 60vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#carImages i{
+    color: white;
+   
+    font-size: 3vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    
+}
+#carImages button{ background-color: transparent;
+backdrop-filter: blur(10px);
+border-color: transparent;
+border-radius: 4vw;
+margin: 1vw;}

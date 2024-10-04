@@ -1,0 +1,90 @@
+#offersStart video{
+   width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    object-fit: cover;
+}
+#offersStart{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    /* background-color: black; */
+    align-items: center;
+}
+#offersStart h1{
+    color: white;
+    font-size: 5vw;
+    text-transform: uppercase;
+   
+    width: 100vw;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    
+}
+#currentOffer #cars{
+    background-color: white;
+}
+#noCars{
+    text-align: center;
+    background-color: lightgray;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-transform: uppercase;
+}
+
+#cars img{
+    width: 40vw;
+    margin-right: 6vw;
+}
+#cars{
+    padding: 8vh 13vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+#cars li{
+    display: flex;
+    gap: 0vw;
+    
+    align-items: center;
+    padding: 2vw;
+    border: 3px solid lightgrey;
+}
+#cars a{
+    text-decoration: none;
+    color: black;
+}
+#cars h1{
+    font-size: 1.7vw;
+}
+#cars li h1{
+    padding-bottom: 2vh;
+    margin-bottom: 2vh;
+    border-bottom: 3px solid lightgray;
+}
+#cars li section{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+#currentOffer #sort{
+    background-color: white;
+    display: flex;
+    padding: 3vh 13vw;
+    padding-top: 5vh;
+    padding-bottom: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#sort button{
+    padding: 1vw;
+    border-radius: 1vw;
+    background-color: black;
+    color: white;
+    font-size: 1.3vw;
+}
+
+#sort button:hover{
+    cursor: pointer;
+}
