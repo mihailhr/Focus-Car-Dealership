@@ -12,6 +12,7 @@
     text-align: left;
     display: flex;
     flex-direction: column;
+    
     gap: 1vh;
 }
 #specifics h1{
@@ -22,6 +23,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 60vw;
     
 }
 #specifics h1 button{
@@ -38,6 +40,8 @@
 
 #carImages{
     width: 60vw;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     height: 60vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,3 +65,30 @@ backdrop-filter: blur(10px);
 border-color: transparent;
 border-radius: 4vw;
 margin: 1vw;}
+
+#moreInfo{
+    margin-top: 7vh;
+    padding-bottom: 2vh;
+    border-bottom: 3px solid lightgray;
+}
+#moreInfo h2{
+    margin-bottom: 2vh;
+}
+#moreInfo p{
+    margin-bottom: 2vh;
+    text-indent: 1vw;
+    
+}
+#continueBrowsing{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+#continueBrowsing button{
+    color: white;
+    background-color: black;
+    border-radius: 1vw;
+    padding: 1vw;
+    text-transform: uppercase;
+    font-size: 1.5vw;
+}

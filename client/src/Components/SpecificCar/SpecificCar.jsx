@@ -116,6 +116,15 @@ export default function SpecificCar() {
             takes 6-8 weeks. For companies registered for VAT, the price is
             lower because VAT is not due.
           </p>
+          <section id="moreInfo">
+            <h2>Focus Car Dealership – Importing Cars from America and Canada</h2>
+            <p>If you choose to work with us, we will provide you access to our database of imported cars and their prices, allowing you to compare prices with your search. This will give you a real insight into car prices, helping you understand the market and set a budget according to the car you are looking for. You can also rely on us for advice on what type of car to search for, depending on your needs. We will provide you with accurate prices of completed deals on cars similar to what you are looking for, helping you form a realistic assessment of the market.</p>
+            <p>For example, if you are purchasing a car for investment and resale, we can advise you on which cars are in high demand and sell the fastest in Bulgaria. If you are looking for the perfect family car with minimal damages (such as scratched paint, broken side glass, or detached bumpers), we will provide information on which cars are easiest to maintain and most reliable for driving in Bulgarian conditions. We will conduct research on the vehicle you have chosen before purchase, as well as check the proper documentation for the desired car. If there are any discrepancies, we will refuse the sale, no matter how much you want a specific vehicle, because we want the client to be satisfied in the end. Our extensive knowledge of documentation gives you confidence that you won’t have any problems later on.</p>
+            <p>There are cars manufactured outside the EU that cannot be registered in Bulgaria. We have encountered cases where clients of our competitors reached out to us for assistance with customs clearance and vehicle registration due to complications or rejected technical tests. We will protect you from such situations by advising you on which cars to avoid when purchasing. In our first meeting, we will provide complete information and answer all your questions that we may not have addressed on our website.</p>
+          </section>
+          <article id="continueBrowsing">
+            <a href="/offers"><button>See all offers</button></a>
+          </article>
         </div>
       )}
     </div>
