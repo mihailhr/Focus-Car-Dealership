@@ -14,8 +14,8 @@ export default function Footer() {
         </p>
       </section>
 
-      <h1>Focus Car dealership 2024. All rights reserved.</h1>
-      <ul>
+      <h1 id="copyright">&copy; Focus Car dealership 2024. All rights reserved.</h1>
+      <ul id="footerMenu">
       <li><Link to="/">Home page</Link></li>
         <li><Link to="/offers">Current offers</Link></li>
         <li><Link to="/services">Services</Link></li>

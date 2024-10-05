@@ -56,3 +56,37 @@ footer ul a i{
 #icons a:hover{
     font-size: 3vw;
 }
+
+@media (max-width:500px){
+    footer #icons i{
+        font-size: 7vw;
+        margin-top: 1vh;
+    }
+    footer #icons{
+        gap: 4vw;
+    }
+    footer #footerMenu{
+        flex-direction: column;
+        margin-top: 1vh;
+    }
+    footer ul{
+        height: fit-content;
+        padding: 1vw;
+    }
+    footer ul li{
+        font-size: 5vw;
+    }
+    footer h1{
+        font-size: 4vw;
+    }
+    footer #consultation{
+        font-size: 4vw;
+        gap: 2vh;
+        
+    }
+    footer #consultation button{
+        font-size: 3vw;
+        margin-top: 1vh;
+        
+    }
+}
