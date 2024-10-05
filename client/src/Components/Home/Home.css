@@ -202,3 +202,84 @@ padding-top: 3vh;
     margin-bottom: 1vh;
     
 }
+
+
+@media (max-width:500px){
+    #home #start {
+        background-position: bottom;
+        min-height: 60vh;
+    }
+    #home #start article p{
+       font-size: 3.4vw;
+    }
+    #home #start article h1{
+        font-size: 4.7vw;
+    }
+    #home #steps ul{
+        gap: 8vh;
+        padding: 3vh 1vw;
+        
+        align-items: center;
+        
+    }
+    #home #steps ul li{
+        min-width: 80vw;
+    }
+    #home #steps ul h3 span{
+        font-size: 8vw;
+    }
+    #home #steps ul li h3{
+        font-size: 5vw;
+    } 
+    #transport{
+        flex-direction: column;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        height: fit-content;
+    }
+    #transport img{
+        min-width: 100vw;
+    }
+    #transport section{
+        height: fit-content;
+        gap: 3vh;
+        padding: 3vh 2vw;
+    }
+    #transport section h1{
+        font-size: 4vw;
+    }
+    #transport section p{
+        font-size: 3.5vw;
+    }
+    #currentOffers #sectionLeft, #currentOffers #sectionRight{
+        padding:5vh 3vw;
+        gap: 5vh;
+    }
+    #currentOffers #sectionLeft h1, #currentOffers #sectionRight h1{
+        font-size: 7vw;
+        
+    }
+    #currentOffers #sectionLeft p{
+        font-size: 3.5vw;
+    }
+    #currentOffers{
+        height: fit-content;
+    }
+    #transportExperts{
+        padding: 8vh 3vw;
+    }
+    #transportExperts h1{
+        font-size: 5vw;
+    }
+    #chooseUs h1{
+        font-size: 6vw;
+    } 
+    #chooseUs ul{
+        flex-wrap: wrap;
+        row-gap: 5vh;
+    }
+    #chooseUs ul li{
+        max-width: 30vw;
+    }
+}
