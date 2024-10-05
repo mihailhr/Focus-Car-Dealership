@@ -1,7 +1,4 @@
-/* #about{
-    height: 80vh;
-   
-} */
+
 #about section{
     background-image: url("/images/about\ background.jpg");
     height: 60vh;
@@ -69,4 +66,38 @@
     text-transform: uppercase;
     text-align: center;
     margin-top: 5vh;
+}
+
+
+@media (max-width:500px){
+    #about section h1{
+        font-size: 8vw;
+    }
+    #about article ul{
+        margin: 5vh 0;
+    }
+    #about article ul li i{
+        font-size: 18vw;
+    }
+    #about article ul li p{
+        font-size: 5vw;
+    }
+    #about article h1{
+        margin-top: 5vh;
+        font-size: 6vw;
+        padding: 0 5vw;
+    }
+    #about article p{
+        font-size: 4vw;
+        padding: 0 5vw;
+        padding-bottom: 3vh;
+    }
+    #partners ul{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    #partners ul img{
+      width: 80vw;  
+    }
 }

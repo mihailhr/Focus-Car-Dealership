@@ -86,3 +86,46 @@ margin-bottom: 1.5vh;
     overflow-y: hidden;
     color: black;
 }
+
+@media (max-width:500px){
+    #heading h1{
+        font-size: 10vw;
+    }
+    #leftPartContacts{
+        width: 0vw;
+    }
+    #contactsForm{
+        margin-top: 5vh;
+        padding: 0 5vw;
+        justify-content: center;
+        width: 100vw;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("/images/porsche.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    #email{
+        justify-content: space-between;
+    }
+    #contactsForm h1{
+        font-size: 6.5vw;
+        color: white;
+        margin-bottom: 3vh;
+    }
+    #office ul{
+        flex-direction: column;
+        gap: 5vh;
+        margin-bottom: 7vh;
+    }
+    #office i{
+        font-size: 12vw;
+    }
+    #contactsForm label{color: white;}
+    #contactsForm button{
+        border-radius: 3vw;
+        font-size: 6vw;
+        margin-top: 3vh;
+    }
+}

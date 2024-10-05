@@ -16,3 +16,11 @@
     padding: 1vw;
    
 }
+
+@media (max-width:500px){
+    #notifications p{
+        font-size: 5vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+}
