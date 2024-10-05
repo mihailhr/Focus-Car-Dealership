@@ -92,3 +92,6 @@ margin: 1vw;}
     text-transform: uppercase;
     font-size: 1.5vw;
 }
+button:hover{
+    cursor: pointer;
+}

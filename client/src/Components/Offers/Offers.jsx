@@ -50,17 +50,19 @@ export default function Offers() {
   return (
     <div id="currentOffer">
         <section id="offersStart">
-            <video src="/videos/homeVideo.mp4" autoPlay muted loop></video>
+            <video src="/videos/homeVideo2.mp4" autoPlay muted loop></video>
             <h1>Current offers</h1>
         </section>
-      <section id="sort">
+      
+      {sortedContent.length >0 && <section id="sort">
         <p>Sort:</p>
         <button onClick={()=>sort("all")}>All vehicles</button>
         <button onClick={()=>sort("price")}>Cheapest</button>
         <button onClick={()=>sort("year")}>Newest</button>
         <button onClick={()=>sort("hp")}>Most powerful</button>
-        <button onClick={()=>sort("mileage")}>Low mileage</button>
-      </section>
+        <button onClick={()=>sort("mileage")}>Lowest mileage</button>
+      </section>}
+      
      
       <ul id="cars">
         {sortedContent.length > 0 ? (
@@ -74,7 +76,7 @@ export default function Offers() {
               <section>
              
                 <h1>
-                  {car.brand} {car.model} <a href={"/offers/" + car._id}><i class="fa-solid fa-info"></i></a>
+                  {car.brand} {car.model} <a href={"/offers/" + car._id}><i className="fa-solid fa-info"></i></a>
                   
                 </h1>
 
@@ -88,9 +90,9 @@ export default function Offers() {
             </li>
           ))
         ) : (
-          <li id="noCars">
+          <section id="noCars">
             <h1>No cars available right now</h1>
-          </li>
+          </section>
         )}
       </ul>
     </div>
