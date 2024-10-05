@@ -22,7 +22,6 @@ export default function SpecificCar() {
         if (foundCar.images && foundCar.images.length > 0) {
             const imageRoot = document.getElementById("carImages")
             imageRoot.style.backgroundImage = `url(${foundCar.images[0]})`
-            console.log(foundCar.images[0])
             const arrowLeft=document.getElementById("arrowLeft")
              arrowLeft.style.visibility="hidden"
           }

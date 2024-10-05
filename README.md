@@ -25,4 +25,5 @@ Focus Car Dealership is a simple web application for importing cars and other ve
 1. Deployment
 2. Responsiveness for all resolutions
 3. Final stylization improvements
+4. Improving the project's overall structure
 

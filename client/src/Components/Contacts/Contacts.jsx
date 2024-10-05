@@ -26,8 +26,8 @@ export default function Contacts() {
     };
     
     const handleSubmit = async (e) => {
-      e.preventDefault();
-      console.log('Form submitted:', formData);
+      e.preventDefault()
+      
 
       const response=await fetch("http://localhost:3000/contacts",{
         method:"POST",

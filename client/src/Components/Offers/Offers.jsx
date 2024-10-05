@@ -26,7 +26,7 @@ export default function Offers() {
     fetchCars()
   }, [])
   function sort(criteria){
-    console.log(sortedContent)
+    
     let carsCopy = [...currCars]
     
     if(criteria==="price"){
@@ -42,7 +42,7 @@ export default function Offers() {
     setSortedContent(carsCopy)
 
    
-    console.log(criteria)
+    
   }
 
 

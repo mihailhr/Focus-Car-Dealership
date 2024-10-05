@@ -8,14 +8,14 @@ nav{
    
 }
 
-nav ul{
+nav #sharedMenu{
     display: flex;
     justify-content: space-around;
     height: 15vh;
     overflow-y: hidden;
     
 }
- nav ul li{
+ nav #sharedMenu li{
     font-size: 1.5vw;
     display: flex;
     align-items: center;
@@ -34,12 +34,70 @@ nav li img{
    
   width: 13vw;
 }
-nav ul #specialLi{
+nav #sharedMenu #specialLi{
     background-color: black;
     color: white;
     padding: 1vw;
     border-radius: 1vw;
 }
-nav ul #specialLi a{
+nav #sharedMenu #specialLi a{
     color: white;
+}
+nav #sharedMenu #logoReplacement{
+    display: none;
+}
+nav #mobileMenu{
+    display: none;
+
+}
+nav #sharedMenu #foldMenu{
+    display: none;
+}
+
+#mobileMenu button, #sharedMenu button{
+    background-color: transparent;
+    border: none;
+}
+
+@media (max-width:500px){
+    nav #mobileMenu{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 6vw;
+        padding-right: 6vw;
+        align-items: center;
+    }
+    #mobileMenu img{
+        width: 40vw;
+        height: 12vh;
+    }
+    #mobileMenu i{
+        font-size: 7vw;
+    }
+  
+    nav #sharedMenu{
+        flex-direction: column;
+        
+        margin-bottom: 1vh;
+        display: none;
+        
+    }
+    nav #sharedMenu #foldMenu{
+        display: block;
+    }
+    nav #sharedMenu li{
+        font-size: 3.5vw;
+    
+       
+    }
+    nav{
+        padding-top: 1vh;
+    }
+    #logoLi{
+        display: none;
+    }
+     nav #sharedMenu #logoReplacement{
+        display: block;
+    }
+
 }

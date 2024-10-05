@@ -19,115 +19,6 @@ const EMAIL_USER=process.env.EMAIL_USER
 const EMAIL_PASS=process.env.EMAIL_PASS
 
 
-
-
-
-
-
-
-// const exampleCar = {
-//   year: 2021,
-//   price: 25000,
-//   damages: "Minor scratches on the right side",
-//   mileage: 15000,
-//   fuelType: 'Gasoline',
-//   brand: 'Toyota',
-//   model: 'Camry',
-//   hp: 203,
-//   images: [
-//       "https://example.com/images/toyota-camry-front.jpg",
-//       "https://example.com/images/toyota-camry-side.jpg"
-//   ]
-// };
-// const carExamples = [
-//   {
-//     year: 2020,
-//     price: 30000,
-//     damages: "Rear bumper damage",
-//     mileage: 20000,
-//     fuelType: 'Diesel',
-//     brand: 'Ford',
-//     model: 'F-150',
-//     hp: 290,
-//     images: [
-//       "https://example.com/images/ford-f150-front.jpg",
-//       "https://example.com/images/ford-f150-side.jpg"
-//     ]
-//   },
-//   {
-//     year: 2019,
-//     price: 22000,
-//     damages: "Scratches on the left door",
-//     mileage: 35000,
-//     fuelType: 'Gasoline',
-//     brand: 'Honda',
-//     model: 'Civic',
-//     hp: 158,
-//     images: [
-//       "https://example.com/images/honda-civic-front.jpg",
-//       "https://example.com/images/honda-civic-side.jpg"
-//     ]
-//   },
-//   {
-//     year: 2021,
-//     price: 45000,
-//     damages: "No visible damages",
-//     mileage: 5000,
-//     fuelType: 'Electric',
-//     brand: 'Tesla',
-//     model: 'Model 3',
-//     hp: 283,
-//     images: [
-//       "https://example.com/images/tesla-model3-front.jpg",
-//       "https://example.com/images/tesla-model3-side.jpg"
-//     ]
-//   },
-//   {
-//     year: 2018,
-//     price: 18000,
-//     damages: "Front windshield cracked",
-//     mileage: 60000,
-//     fuelType: 'Gasoline',
-//     brand: 'Nissan',
-//     model: 'Altima',
-//     hp: 179,
-//     images: [
-//       "https://example.com/images/nissan-altima-front.jpg",
-//       "https://example.com/images/nissan-altima-side.jpg"
-//     ]
-//   },
-//   {
-//     year: 2022,
-//     price: 32000,
-//     damages: "Minor scratches on the bumper",
-//     mileage: 10000,
-//     fuelType: 'Hybrid',
-//     brand: 'Toyota',
-//     model: 'Prius',
-//     hp: 121,
-//     images: [
-//       "https://example.com/images/toyota-prius-front.jpg",
-//       "https://example.com/images/toyota-prius-side.jpg"
-//     ]
-//   }
-// ];
-// for(let element of carExamples){
-//   testCarUpload(element)
-// }
-
-// async function testCarUpload(carData){
-//   try {
-//     const uploadingCar=await new Car(carData)
-//     await uploadingCar.save()
-//     console.log('Car added')
-
-//   } catch (error) {
-//     console.log(error)
-//   }
-// }
-// testCarUpload()
-
-
 const transporter = nodemailer.createTransport({
     service:"gmail",
     auth: {
@@ -195,12 +86,8 @@ transporter.sendMail(mailOptions, (error, info) => {
 });
   
 });
-// mongoose.connect("mongodb://localhost:27017/Focus")
-//   .then(()=>app.listen(3000, () => {
-//     console.log("Connected to DB")
-//     console.log("Listening to port 3000");
-//   }))
-//   .catch((err)=>console.error(err))
+
+
 mongoose.connect(DB_URI)
   .then(() => {
     console.log("Connected to MongoDB Atlas");
@@ -211,4 +98,3 @@ mongoose.connect(DB_URI)
   .catch((err) => {
     console.error("Error connecting to MongoDB Atlas", err);
   });
-
