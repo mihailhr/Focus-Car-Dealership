@@ -4,7 +4,7 @@ import "./Offers.css"
 
 export default function Offers() {
   const [currCars, setCurrCars] = useState([]);
-  const [content, setContent] = useState([]);
+  const [sortedContent,setSortedContent]=useState(false)
   useEffect(() => {
     const fetchCars = async () => {
       try {
@@ -15,21 +15,37 @@ export default function Offers() {
           console.error("Bad response");
         }
         const allCars = await response.json();
-        setCurrCars(allCars);
-        console.log(allCars);
+        setCurrCars(allCars)
+        setSortedContent(allCars)
+        
       } catch (error) {
-        console.log(error);
+        console.log(error)
       }
     };
 
-    fetchCars();
-  }, []);
-  function sortAndFilter(criteria){
-    if(criteria==="new"){
-      const filteredCars=currCars.filter((a)=>a.year>=2016)
-      setCurrCars(filteredCars)
+    fetchCars()
+  }, [])
+  function sort(criteria){
+    console.log(sortedContent)
+    let carsCopy = [...currCars]
+    
+    if(criteria==="price"){
+      carsCopy.sort((a,b)=>a.price -b.price)
+    }else if(criteria==="year"){
+      carsCopy.sort((a,b)=>b.year-a.year)
+    }else if(criteria==="hp"){
+      carsCopy.sort((a,b)=>b.hp-a.hp)
+    }else if(criteria==="mileage"){
+      carsCopy.sort((a,b)=>a.mileage-b.mileage)
+      
     }
+    setSortedContent(carsCopy)
+
+   
+    console.log(criteria)
   }
+
+
 
   return (
     <div id="currentOffer">
@@ -38,29 +54,31 @@ export default function Offers() {
             <h1>Current offers</h1>
         </section>
       <section id="sort">
-        <button>All vehicles</button>
-        <button>Affordable</button>
-        <button onClick={()=>sortAndFilter("new")}>New</button>
-        <button>Powerful</button>
-        <button>Low mileage</button>
+        <p>Sort:</p>
+        <button onClick={()=>sort("all")}>All vehicles</button>
+        <button onClick={()=>sort("price")}>Cheapest</button>
+        <button onClick={()=>sort("year")}>Newest</button>
+        <button onClick={()=>sort("hp")}>Most powerful</button>
+        <button onClick={()=>sort("mileage")}>Low mileage</button>
       </section>
-
+     
       <ul id="cars">
-        {currCars.length > 0 ? (
-          currCars.map((car) => (
+        {sortedContent.length > 0 ? (
+          sortedContent.map((car) => (
             <li className="car" key={car._id}>
-              <img
+               <a href={"/offers/" + car._id}> <img
                 src={car.images[0]}
                 alt={car.brand + " " + car.model + " photo"}
-              />
+              /></a>
+             
               <section>
-              <a href={"/offers/" + car._id}>
+             
                 <h1>
-                  {car.brand} {car.model} 
+                  {car.brand} {car.model} <a href={"/offers/" + car._id}><i class="fa-solid fa-info"></i></a>
                   
                 </h1>
 
-              </a>
+              
               <p>Price: {car.price}$</p>
               <p>Year: {car.year}</p>
               <p>Mileage: {car.mileage} miles</p>
