@@ -55,13 +55,17 @@ export default function Offers() {
         </section>
       
       {sortedContent.length >0 && <section id="sort">
+    
         <p>Sort:</p>
         <button onClick={()=>sort("all")}>All vehicles</button>
         <button onClick={()=>sort("price")}>Cheapest</button>
         <button onClick={()=>sort("year")}>Newest</button>
         <button onClick={()=>sort("hp")}>Most powerful</button>
         <button onClick={()=>sort("mileage")}>Lowest mileage</button>
-      </section>}
+      </section>
+      
+      
+      }
       
      
       <ul id="cars">

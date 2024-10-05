@@ -27,3 +27,7 @@ Focus Car Dealership is a simple web application for importing cars and other ve
 3. Final stylization improvements
 4. Improving the project's overall structure
 
+#### Currently supported resolutions
+- Standard resolution (1920X1080)
+- Up to 500px screen width
+

@@ -92,3 +92,58 @@
 #sort button:hover{
     cursor: pointer;
 }
+
+
+@media (max-width:500px){
+   #offersStart video{
+    display: none;
+   
+   
+   }
+   #offersStart{
+    
+    height: 50vh;
+     background-image: url("/images/alpine.jpg");
+     background-size: cover;
+     background-position: center ;
+     background-attachment: fixed;
+     
+   }
+   #offersStart h1{
+    font-size: 8vw;
+   }
+   #sort button{
+    font-size: 5vw;
+    
+   }
+   #currentOffer #sort{
+   flex-wrap: wrap;
+   column-gap: 3vw;
+   row-gap: 4vh;
+   flex-direction: column;
+   }
+   #cars{
+    padding: 0;
+    margin-top: 8vh;
+    gap: 5vh;
+    margin-bottom: 7vh;
+   }
+   #cars li{
+    flex-direction: column;
+    padding: 0vw;
+    border: none;
+    margin-bottom: 7vh;
+   }
+   #cars img{
+    width: 100vw;
+    margin: 0;
+   }
+   #cars li h1{
+    font-size: 7vw;
+    width: 100vw;
+    padding: 2vh 5vw;
+   }
+   #cars li p{
+    padding: 0 5vw;
+   }
+}

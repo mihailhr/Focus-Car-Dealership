@@ -95,3 +95,52 @@ margin: 1vw;}
 button:hover{
     cursor: pointer;
 }
+
+@media (max-width:500px){
+    #interior{
+        height: 40vh;
+        
+    }
+    #specifics{
+        padding: 0 2vw;
+        align-items: center;
+        margin: 6vh 0;
+        row-gap: 3vh;
+    }
+    #specifics h1{
+        font-size: 7vw;
+        width: 90vw;
+        align-items: center;
+    }
+    #specifics h1 i{
+        font-size: 7vw;
+    }
+    #specifics p{
+        font-size: 4vw;
+        padding: 0 5vw;
+        text-align: left;
+        align-self: self-start;
+    }
+    #specifics i{
+        font-size: 8vw;
+        padding-right: 2vw;
+    }
+    #carImages{
+        width: 90vw;
+        background-size: contain;
+        height: auto;
+        margin:7vh 0;
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        aspect-ratio: 16/10;
+    }
+    #moreInfo h2{
+        padding: 0 5vw;
+    }
+    #continueBrowsing button{
+        font-size: 6vw;
+        padding: 3vw;
+        border-radius: 3vw;
+    }
+}

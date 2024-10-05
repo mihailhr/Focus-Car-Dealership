@@ -8,7 +8,6 @@ import Services from "./Components/Services/Services.jsx"
 import Contacts from "./Components/Contacts/Contacts.jsx"
 import Footer from "./Components/Footer/Footer.jsx"
 import { Routes, Route } from 'react-router-dom';
-import AddCar from './Components/AddCar/AddCar.jsx'
 import SpecificCar from './Components/SpecificCar/SpecificCar.jsx'
 function App() {
   
@@ -22,7 +21,6 @@ function App() {
       <Route path='/services' element={<Services/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/contacts' element={<Contacts/>}/>
-      <Route path='/addCar' element={<AddCar/>}/>
       <Route path='/offers/:id' element={<SpecificCar/>} />
       </Routes>
       <Footer/>
