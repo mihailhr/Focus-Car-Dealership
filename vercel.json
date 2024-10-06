@@ -1,7 +1,5 @@
 {
-    "project": {
-      "rootDirectory": "client"
-    },
+    
     "rewrites": [
       {
         "source": "/(.*)",
