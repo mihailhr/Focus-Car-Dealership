@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./SpecificCar.css";
 import Notifications from "../Notification/Notifications";
-
+import { Link } from "react-router-dom"
 export default function SpecificCar() {
     
   const [currCar, setCurrCar] = useState({});
