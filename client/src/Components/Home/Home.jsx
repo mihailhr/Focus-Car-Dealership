@@ -20,7 +20,7 @@ export default function Home() {
       {darkModeNotification && (
         <Notifications
           news={
-            "We advise you to turn off dark mode to get the best experience"
+            "For the best experience, we recommend disabling dark mode."
           }
         />
       )}
