@@ -7,3 +7,6 @@
     color: black !important; /* Dark text */
   }
 }
+:root {
+  color-scheme: light only;
+}
