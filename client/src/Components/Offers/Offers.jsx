@@ -72,15 +72,15 @@ export default function Offers() {
         {sortedContent.length > 0 ? (
           sortedContent.map((car) => (
             <li className="car" key={car._id}>
-               <a href={"/offers/" + car._id}> <img
+               <Link to={"/offers/" + car._id}> <img
                 src={car.images[0]}
                 alt={car.brand + " " + car.model + " photo"}
-              /></a>
+              /></Link>
              
               <section>
              
                 <h1>
-                  {car.brand} {car.model} <a href={"/offers/" + car._id}><i className="fa-solid fa-info"></i></a>
+                  {car.brand} {car.model} <Link to={"/offers/" + car._id}><i className="fa-solid fa-info"></i></Link>
                   
                 </h1>
 

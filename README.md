@@ -22,12 +22,16 @@ Focus Car Dealership is a simple web application for importing cars and other ve
 - Nodemailer
 
 ### Things I am currently working on
-1. Deployment - The server is now deployed and working
-2. Responsiveness for all resolutions
-3. Final stylization improvements
-4. Improving the project's overall structure
+1. Responsiveness for all resolutions
+2. Final stylization improvements
+3. Improving the project's overall structure
 
 #### Currently supported resolutions
 - Standard resolution (1920X1080)
 - Up to 500px screen width
+
+
+# Deployment links
+- Client - https://focus-car-dealership-xpn1-kfoqa2kxv-mihails-projects-705a313d.vercel.app/
+- Server - https://focus-car-dealership.onrender.com
 

@@ -30,7 +30,7 @@ export default function Home(){
                 <section>
                     <h1>IMPORT OF CARS FROM CANADA AND THE USA</h1>
                     <p>At Focus, we are dedicated to providing comprehensive solutions for the purchase, sale, and delivery of cars. Our commitment to quality vehicles and excellent service drives our continuous growth. We strive for constant improvement and building long-term relationships with our valued customers.</p>
-                    <button><a href="/services">Learn more</a></button>
+                    <button><Link to="/services">Learn more</Link></button>
                 </section>
             </div>
             <div id="currentOffers">
@@ -40,7 +40,7 @@ export default function Home(){
             </section>
             <section id="sectionRight">
                 <h1>See the Latest Offers</h1>
-                <a href="/offers"><button>See the Latest Offers</button></a>
+                <Link to="/offers"><button>See the Latest Offers</button></Link>
             </section>
             </div>
             <article id="transportExperts">

@@ -122,7 +122,7 @@ export default function SpecificCar() {
             <p>There are cars manufactured outside the EU that cannot be registered in Bulgaria. We have encountered cases where clients of our competitors reached out to us for assistance with customs clearance and vehicle registration due to complications or rejected technical tests. We will protect you from such situations by advising you on which cars to avoid when purchasing. In our first meeting, we will provide complete information and answer all your questions that we may not have addressed on our website.</p>
           </section>
           <article id="continueBrowsing">
-            <a href="/offers"><button>See all offers</button></a>
+            <Link to="/offers"><button>See all offers</button></Link>
           </article>
         </div>
       )}
