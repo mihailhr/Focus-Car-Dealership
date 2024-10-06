@@ -1,3 +1,9 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: white !important; /* Light background */
+    color: black !important; /* Dark text */
+  }
+}
