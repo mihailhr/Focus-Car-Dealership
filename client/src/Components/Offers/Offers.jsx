@@ -44,18 +44,38 @@ export default function Offers() {
    
     
   }
+  function showSortMenuMobile(){
+    const sortMenuMobile=document.getElementById("mobileSortButtons")
+    if(sortMenuMobile.style.display==="none"){
+      sortMenuMobile.style.display="flex"
+    }else{
+      sortMenuMobile.style.display="none"
+    }
+  }
 
 
 
   return (
     <div id="currentOffer">
         <section id="offersStart">
-            <video src="/videos/homeVideo2.mp4" autoPlay muted loop></video>
+            
             <h1>Current offers</h1>
+            
         </section>
       
-      {sortedContent.length >0 && <section id="sort">
-    
+      {sortedContent.length >0 && <>
+      <section id="sortMobile">
+      <button id="showSortMenu" onClick={showSortMenuMobile}>Sort <i class="fa-solid fa-arrow-down-wide-short"></i></button>
+      <div id="mobileSortButtons">
+      <button onClick={()=>sort("all")}>All vehicles</button>
+<button onClick={()=>sort("price")}>Cheapest</button>
+<button onClick={()=>sort("year")}>Newest</button>
+<button onClick={()=>sort("hp")}>Most powerful</button>
+<button onClick={()=>sort("mileage")}>Lowest mileage</button>
+      </div>
+    </section>
+      <section id="sort">
+        
         <p>Sort:</p>
         <button onClick={()=>sort("all")}>All vehicles</button>
         <button onClick={()=>sort("price")}>Cheapest</button>
@@ -63,7 +83,7 @@ export default function Offers() {
         <button onClick={()=>sort("hp")}>Most powerful</button>
         <button onClick={()=>sort("mileage")}>Lowest mileage</button>
       </section>
-      
+      </>
       
       }
       

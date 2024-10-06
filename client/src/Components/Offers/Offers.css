@@ -1,16 +1,13 @@
-#offersStart video{
-   width: 100vw;
-    position: fixed;
-    top: 0;
-    z-index: -2;
-    object-fit: cover;
-}
+
 #offersStart{
     display: flex;
     justify-content: center;
     height: 70vh;
     /* background-color: black; */
     align-items: center;
+    background-image:url("/images/alpine.jpg") ;
+    background-attachment: fixed;
+    background-size: cover;
 }
 #offersStart h1{
     color: white;
@@ -24,6 +21,9 @@
 }
 #currentOffer #cars{
     background-color: white;
+}
+#mobileSortButtons{
+    display: none;
 }
 #noCars{
     text-align: center;
@@ -72,6 +72,9 @@
     flex-direction: column;
     gap: 3vh;
 }
+/* #currentOffer #sortMobile{
+    display: none;
+} */
 #currentOffer #sort{
     background-color: white;
     display: flex;
@@ -145,5 +148,42 @@
    }
    #cars li p{
     padding: 0 5vw;
+   }
+   #currentOffer #sort{
+    display: none;
+   }
+   #currentOffer #sortMobile{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   #showSortMenu{
+    font-size: 5vw;
+    padding: 3vw;
+    border-radius: 3vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    
+    margin-top: 5vh;
+    
+   }
+   #mobileSortButtons{
+    
+    display: none;
+    flex-direction: column;
+    gap: 3vh;
+    margin-top: 3vh;
+   }
+   #mobileSortButtons button{
+    background-color: lightgray;
+    font-size: 4vw;
+    border: none;
+    border-radius: 3vw;
+    padding: 1vw;
    }
 }
