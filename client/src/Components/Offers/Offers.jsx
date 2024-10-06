@@ -8,7 +8,7 @@ export default function Offers() {
   useEffect(() => {
     const fetchCars = async () => {
       try {
-        const response = await fetch("http://localhost:3000/currentOffers", {
+        const response = await fetch("https://focus-car-dealership.onrender.com/currentOffers", {
           method: "GET",
         });
         if (!response.ok) {

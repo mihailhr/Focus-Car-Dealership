@@ -12,7 +12,7 @@ export default function SpecificCar() {
   const [notification,setNotification]=useState(false)
   useEffect(() => {
     async function getCurrCar() {
-      const res = await fetch(`http://localhost:3000/offers/${id}`);
+      const res = await fetch(`https://focus-car-dealership.onrender.com/offers/${id}`);
       if (!res.ok) {
         console.log("Server error");
         setContentError("Server error");

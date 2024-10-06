@@ -29,7 +29,7 @@ export default function Contacts() {
       e.preventDefault()
       
 
-      const response=await fetch("http://localhost:3000/contacts",{
+      const response=await fetch("https://focus-car-dealership.onrender.com/contacts",{
         method:"POST",
         headers: {
           "Content-Type": "application/json",

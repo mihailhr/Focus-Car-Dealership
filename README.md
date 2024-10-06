@@ -22,7 +22,7 @@ Focus Car Dealership is a simple web application for importing cars and other ve
 - Nodemailer
 
 ### Things I am currently working on
-1. Deployment
+1. Deployment - The server is now deployed and working
 2. Responsiveness for all resolutions
 3. Final stylization improvements
 4. Improving the project's overall structure
