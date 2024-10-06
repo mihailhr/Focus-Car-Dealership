@@ -79,14 +79,20 @@ footer ul a i{
     footer h1{
         font-size: 4vw;
     }
+    footer{
+        height: 45vh;
+    }
     footer #consultation{
-        font-size: 4vw;
-        gap: 2vh;
+        font-size: 4.5vw;
+        height: 15vh;
+       
         
     }
     footer #consultation button{
-        font-size: 3vw;
+        font-size: 4vw;
         margin-top: 1vh;
+        padding: 2vw;
+        border-radius: 3vw;
         
     }
 }

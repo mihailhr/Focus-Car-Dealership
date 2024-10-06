@@ -65,7 +65,7 @@ export default function Offers() {
       
       {sortedContent.length >0 && <>
       <section id="sortMobile">
-      <button id="showSortMenu" onClick={showSortMenuMobile}>Sort <i class="fa-solid fa-arrow-down-wide-short"></i></button>
+      <button id="showSortMenu" onClick={showSortMenuMobile}>Sort <i className="fa-solid fa-arrow-down-wide-short"></i></button>
       <div id="mobileSortButtons">
       <button onClick={()=>sort("all")}>All vehicles</button>
 <button onClick={()=>sort("price")}>Cheapest</button>
