@@ -18,7 +18,7 @@
    
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
     #notifications p{
         font-size: 5vw;
         padding-top: 3vh;

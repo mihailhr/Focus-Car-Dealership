@@ -104,7 +104,7 @@
     font-size: 5vw;
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
     #services #start h1{
        font-size: 7vw;
     }

@@ -60,7 +60,7 @@ footer ul a i{
     font-size: 3vw;
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
     footer #icons i{
         font-size: 8vw;
         margin-top: 5vh;

@@ -27,15 +27,27 @@ const transporter = nodemailer.createTransport({
     }
 });
 
-const welcomeMessage = `
-                                                          ===============================================
-                                                          |                                             |
-                                                          |  W E L C O M E   T O   F O C U S            |
-                                                          |                                             |
-                                                          |  C A R   D E A L E R S H I P'S S E R V E R  |
-                                                          |                                             |
-                                                          ===============================================
-    `
+const welcomeMessage =  `
+<p>
+
+
+
+
+
+
+  ===============================================<br>
+  |                                             |<br>
+  |  W E L C O M E   T O   F O C U S            |<br>
+  |                                             |<br>
+  |  C A R   D E A L E R S H I P'S S E R V E R  |<br>
+  |                                             |<br>
+  ===============================================<br>
+</p>
+
+<h1>You might want to check out:</h1> <br>
+<a href="https://focus-car-dealership.onrender.com/currentOffers">The current cars available</a><br>
+<a href="https://focus-car-dealership.onrender.com/offers/66fd6b33ab33fdc818c7699d">A particular car</a>
+`;
     app.get("/",(req,res)=>{
       res.status(200).send(`<pre>${welcomeMessage}</pre>`)
     })

@@ -39,10 +39,10 @@
 }
 
 #carImages{
-    width: 60vw;
+    
     margin-top: 5vh;
     margin-bottom: 5vh;
-    height: 60vh;
+    aspect-ratio: 16/9;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +96,7 @@ button:hover{
     cursor: pointer;
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
     #interior{
         height: 40vh;
         

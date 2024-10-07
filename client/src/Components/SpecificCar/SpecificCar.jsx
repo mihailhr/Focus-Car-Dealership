@@ -59,7 +59,7 @@ export default function SpecificCar() {
     }
   }
   function imageChanger(){
-    
+
     const newIndex = currImageIndex < currCar.images.length - 1 ? currImageIndex + 1 : 0
     setCurrImageIndex(newIndex)
     const imageRoot = document.getElementById("carImages")

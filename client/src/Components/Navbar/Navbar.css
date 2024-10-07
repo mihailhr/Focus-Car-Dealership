@@ -59,7 +59,7 @@ nav #sharedMenu #foldMenu{
     border: none;
 }
 
-@media (max-width:500px){
+@media (max-width:600px){
     nav #mobileMenu{
         display: flex;
         justify-content: space-between;
@@ -68,7 +68,7 @@ nav #sharedMenu #foldMenu{
         align-items: center;
     }
     #mobileMenu img{
-        width: 40vw;
+        width: 38vw;
        
     }
     #mobileMenu i{

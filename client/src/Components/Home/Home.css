@@ -204,7 +204,7 @@ padding-top: 3vh;
 }
 
 
-@media (max-width:500px){
+@media (max-width:600px){
     #home #start {
         background-position: bottom;
         min-height: 60vh;
