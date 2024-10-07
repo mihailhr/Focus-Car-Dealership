@@ -27,6 +27,20 @@ const transporter = nodemailer.createTransport({
     }
 });
 
+const welcomeMessage = `
+            ===============================================
+            |                                             |
+            |  W E L C O M E   T O   F O C U S            |
+            |                                             |
+            |  C A R   D E A L E R S H I P'S S E R V E R  |
+            |                                             |
+            ===============================================
+    `
+    app.get("/",(req,res)=>{
+      res.status(200).send(`<pre>${welcomeMessage}</pre>`)
+    })
+
+
 app.get("/currentOffers",async (req,res)=>{
   try {
     const allVehicles=await Car.find()

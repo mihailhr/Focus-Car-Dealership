@@ -282,4 +282,7 @@ padding-top: 3vh;
     #chooseUs ul li{
         max-width: 30vw;
     }
+    #chooseUs i{
+        font-size: 8vw;
+    }
 }

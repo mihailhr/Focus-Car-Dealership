@@ -59,7 +59,8 @@ footer ul a i{
 
 @media (max-width:500px){
     footer #icons i{
-        font-size: 7vw;
+        font-size: 8vw;
+        margin-top: 5vh;
         margin-top: 1vh;
     }
     footer #icons{
@@ -80,7 +81,7 @@ footer ul a i{
         font-size: 4vw;
     }
     footer{
-        height: 47vh;
+        height: 43vh;
     }
     footer #consultation{
         font-size: 4.5vw;

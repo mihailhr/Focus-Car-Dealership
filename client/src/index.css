@@ -10,3 +10,8 @@
 :root {
   color-scheme: light only;
 }
+
+
+i{
+  overflow-y: hidden;
+}

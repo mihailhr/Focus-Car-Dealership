@@ -46,7 +46,7 @@ export default function Offers() {
   }
   function showSortMenuMobile(){
     const sortMenuMobile=document.getElementById("mobileSortButtons")
-    if(sortMenuMobile.style.display==="none"){
+    if(!sortMenuMobile.style.display ||sortMenuMobile.style.display==="none"){
       sortMenuMobile.style.display="flex"
     }else{
       sortMenuMobile.style.display="none"
