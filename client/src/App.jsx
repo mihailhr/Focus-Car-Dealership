@@ -9,8 +9,26 @@ import Contacts from "./Components/Contacts/Contacts.jsx"
 import Footer from "./Components/Footer/Footer.jsx"
 import { Routes, Route } from 'react-router-dom';
 import SpecificCar from './Components/SpecificCar/SpecificCar.jsx'
+import {useEffect} from "react"
 function App() {
   
+  useEffect(()=>{
+    greetDeveloper()
+  },[])
+  function greetDeveloper(){
+const welcomeMessage=`
+      ===============================================
+      |                                             |
+      |  W E L C O M E   T O   F O C U S            |
+      |                                             |
+      |             C A R   D E A L E R S H I P     |
+      |                                             |
+      ===============================================
+    `
+
+    console.log(welcomeMessage)
+  }
+
 
   return (
     <div>

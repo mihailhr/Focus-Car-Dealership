@@ -76,7 +76,7 @@ export default function Offers() {
     </section>
       <section id="sort">
         
-        <p>Sort:</p>
+        
         <button onClick={()=>sort("all")}>All vehicles</button>
         <button onClick={()=>sort("price")}>Cheapest</button>
         <button onClick={()=>sort("year")}>Newest</button>

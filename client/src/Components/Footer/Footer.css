@@ -1,9 +1,12 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css");
 footer{
     width: 100vw;
-    height: 43vh;
+   
     text-align: center;
     background-color: white;
+}
+footer{
+    overflow-y: hidden;
 }
 #consultation{
     background-color: black;
@@ -80,9 +83,7 @@ footer ul a i{
     footer h1{
         font-size: 4vw;
     }
-    footer{
-        height: 43vh;
-    }
+   
     footer #consultation{
         font-size: 4.5vw;
         height: 15vh;

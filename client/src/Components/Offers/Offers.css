@@ -84,6 +84,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
+
 #sort button{
     padding: 1vw;
     border-radius: 1vw;
@@ -94,6 +95,9 @@
 
 #sort button:hover{
     cursor: pointer;
+}
+#showSortMenu{
+    display: none;
 }
 
 
