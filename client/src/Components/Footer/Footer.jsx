@@ -35,12 +35,12 @@ export default function Footer() {
         </li>
         <li>
           <a href="">
-            <i className="fa-solid fa-envelope"></i>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=focusdealership@gmail.com&su=Your%20Subject&body=Your%20message%20goes%20here" target="_blank"><i className="fa-regular fa-envelope"></i></a>
           </a>
         </li>
         <li>
           <a href="" title="Coming soon">
-            <i className="fa-solid fa-phone"></i>
+          <a href="tel:+35912345678" target="_blank"><i className="fa-solid fa-phone"></i></a>
           </a>
         </li>
       </ul>

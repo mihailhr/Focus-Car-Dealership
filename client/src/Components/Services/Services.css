@@ -1,6 +1,6 @@
 #start{
     height: 50vh;
-    background-image: url("/images/deal.jpg");
+    background-image: url("/images/deal.webp");
     background-size: cover;
     background-position: bottom;
     display: flex;
@@ -46,8 +46,11 @@
 #canadaAuctions ul,#canadaVehicles ul,#USAVehicles ul{
     display: flex;
     margin: 5vh 0;
-    justify-content: space-between;
+    justify-content: space-around;
+    column-gap: 5vw;
     align-items: center;
+    flex-wrap: wrap;
+    row-gap: 5vh;
 }
 #USAAuctions ul{
     
@@ -86,7 +89,7 @@
     background-size: cover;
     background-position: center ;
     display: flex;
-    padding: 5vh 8vw;
+    padding: 5vh 5vw;
     justify-content: space-between;
     color: white;
     align-items: center;
@@ -96,8 +99,10 @@
     
 }
 #satisfaction p{
-    max-width: 60ch;
-   font-size: 1.2vw;
+    max-width: 46vw;
+   max-height: 80vh;
+   font-size: 1.4vw;
+   
 
 }
 #satisfaction h1{
@@ -178,5 +183,10 @@
         line-height: 3vh;
         max-width: 70ch;
         overflow-y: hidden;
+    }
+}
+@media (min-width:901px) and (max-width:1200px){
+    #satisfaction p{
+        font-size: 1.7vw;
     }
 }

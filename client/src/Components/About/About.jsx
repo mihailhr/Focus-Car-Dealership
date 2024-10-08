@@ -23,9 +23,9 @@ export default function About(){
         <div id="partners">
             <h1>Our partners</h1>
             <ul>
-            <li><img src="/images/ford.png" alt="Ford logo" /></li>
-            <li><img src="/images/vw.png" alt="VW logo" /></li>
-            <li><img src="/images/toyota.png" alt="Toyota logo" /></li>
+            <li><a href="https://www.ford.com/" target="_blank"><img src="/images/ford.png" alt="Ford logo" /></a></li>
+            <li><a href="https://www.vw.com/en.html" target="_blank"><img src="/images/vw.png" alt="VW logo" /></a></li>
+            <li><a href="https://www.toyota.com/" target="_blank"><img src="/images/toyota.png" alt="Toyota logo" /></a></li>
             </ul>
         </div>
  

@@ -1,6 +1,6 @@
 
 #about section{
-    background-image: url("/images/about\ background.jpg");
+    background-image: url("/images/about\ background.webp");
     height: 60vh;
     background-position: center;
     background-attachment: fixed;  
@@ -21,7 +21,7 @@
     width: 100vw;
    
  justify-content: space-evenly;
- margin-bottom: 10vh;
+
 
 }
 #about article ul li{
@@ -32,13 +32,13 @@
     
 }
 #about article ul li i{
-    font-size: 6vw;
-    padding-bottom: 1vh;
+    font-size: 8vw;
+    padding-bottom: 2vh;
     overflow-y: hidden;
 }
 #about article h1{
     text-align: center;
-    margin-top: 14vh;
+    margin-top: 8vh;
     text-transform: uppercase;
     margin-bottom: 7vh;
     font-size: 3.5vw;
@@ -52,15 +52,17 @@
 }
 #partners ul{
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
     gap: 3vw;
     margin-bottom: 5vh;
     margin-top: 3vh;
+    flex-wrap: wrap;
 }
 #partners img{
-    width: 16vw;
+    width: 20vw;
     height: 28vh;
     background-color: white;
+    aspect-ratio: 16/9;
 }
 #partners h1{
     text-transform: uppercase;

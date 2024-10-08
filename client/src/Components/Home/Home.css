@@ -2,7 +2,7 @@
     min-height: 100vh;
 }
 #home #start{
-    background-image: url("/images/homeBackground.jpg");
+    background-image: url("/images/homeBackground.webp");
     background-position: bottom center;
     width: 100vw;
     min-height: 73vh;
@@ -11,6 +11,10 @@
     background-attachment: fixed;
     position: relative;
 }
+#home #start h1{
+    font-size: 4.5vw;
+}
+
 #home #start article {
     color: white;
     font-size: 3vw;
@@ -189,12 +193,15 @@
    
 display: flex;
 padding: 0 5vw;
-justify-content: space-between;
+justify-content: space-around;
 text-align: center;
 background-color: transparent;
 padding-bottom: 3vh;
 color: white;
 padding-top: 3vh;
+flex-wrap: wrap;
+column-gap: 5vw;
+row-gap: 6vh;
 }
 #chooseUs i{
     font-size: 4vw;

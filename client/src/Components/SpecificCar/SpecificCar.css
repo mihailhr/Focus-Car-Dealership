@@ -73,6 +73,7 @@ margin: 1vw;}
 }
 #moreInfo h2{
     margin-bottom: 2vh;
+    font-size: 2vw;
 }
 #moreInfo p{
     margin-bottom: 2vh;
@@ -135,8 +136,9 @@ button:hover{
         padding-bottom: 0;
         aspect-ratio: 16/10;
     }
-    #moreInfo h2{
+    #specifics #moreInfo h2{
         padding: 0 5vw;
+        
     }
     #continueBrowsing button{
         font-size: 6vw;
@@ -168,5 +170,15 @@ button:hover{
         font-size: 3vw;
         padding: 1.4vw;
         border-radius: 2vw;
+    }
+    #carImages{
+        width: 84vw;
+        background-size: contain;
+        height: auto;
+        margin:7vh 0;
+        margin: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        aspect-ratio: 16/10;
     }
 }

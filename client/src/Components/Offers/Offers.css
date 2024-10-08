@@ -5,7 +5,7 @@
     height: 70vh;
     /* background-color: black; */
     align-items: center;
-    background-image:url("/images/alpine.jpg") ;
+    background-image:url("/images/alpine.webp") ;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -78,7 +78,7 @@
 #currentOffer #sort{
     background-color: white;
     display: flex;
-    padding: 3vh 13vw;
+    padding: 3vh 11vw;
     padding-top: 5vh;
     padding-bottom: 0;
     justify-content: space-evenly;
@@ -90,7 +90,7 @@
     border-radius: 1vw;
     background-color: black;
     color: white;
-    font-size: 1.3vw;
+    font-size: 1.6vw;
 }
 
 #sort button:hover{
@@ -207,14 +207,16 @@
         height: auto;
     }
     #cars img{
-        width: 55vw;
+        width: 50vw;
     }
     #cars li h1 {
-        font-size: 3vw;
+        font-size: 2.6vw;
         margin-bottom: 1vh;
+        width: 25vw;
     }
     #cars li section{
         gap: 2vh;
+        
     }
     #offersStart h1{
         font-size: 7vw;

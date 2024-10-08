@@ -1,5 +1,5 @@
 #heading {
-    background-image: url("/images/contacts.jpg");
+    background-image: url("/images/contacts.webp");
     width: 100vw;
     height: 40vh;
     background-size: cover;
@@ -28,7 +28,7 @@
 }
 #leftPartContacts{
     width: 55vw;
-    background-image: url("/images/porsche.jpg");
+    background-image: url("/images/porsche.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -80,6 +80,8 @@ margin-bottom: 1.5vh;
     padding: 3vw;
     justify-content: space-evenly;
     text-align: center;
+    flex-wrap: wrap;
+    gap: 5vw;
 }
 #office i,#office a{
     font-size: 5vw;
