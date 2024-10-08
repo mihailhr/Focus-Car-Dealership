@@ -191,3 +191,32 @@
     padding: 1vw;
    }
 }
+@media (max-width:900px) and (min-width:601px){
+    #currentOffer #sort{
+        padding: 4vh 2vw;
+        padding-bottom: 0;
+    }
+    #sort button{
+        font-size: 2.4vw;
+    }
+    #cars {
+        padding: 8vh 6vw;
+    }
+    #cars li{
+        column-gap: 1vw;
+        height: auto;
+    }
+    #cars img{
+        width: 55vw;
+    }
+    #cars li h1 {
+        font-size: 3vw;
+        margin-bottom: 1vh;
+    }
+    #cars li section{
+        gap: 2vh;
+    }
+    #offersStart h1{
+        font-size: 7vw;
+    }
+}

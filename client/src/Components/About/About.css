@@ -101,3 +101,30 @@
       width: 80vw;  
     }
 }
+@media (max-width:900px) and (min-width:601px){
+
+    #about section h1{
+        font-size: 7vw;
+    }
+    #about article ul{
+        margin: 6vh 0;
+    }
+    #about article{
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    #about article ul li i{
+        font-size: 12vw;
+    }
+    #about article p{
+        font-size: 3vw;
+    }
+    #about article h1{
+        font-size: 5vw;
+        margin-top: 8vh;
+    }
+    #partners img{
+        width: 28vw;
+        aspect-ratio: 16/9;
+    }
+}
