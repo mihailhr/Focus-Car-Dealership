@@ -129,3 +129,27 @@ margin-bottom: 1.5vh;
         margin-top: 3vh;
     }
 }
+
+
+@media (max-width:900px) and (min-width:601px){
+    #heading h1{font-size: 7vw;}
+    #contactsForm{
+        padding: 0 5vw;
+        align-self: center;
+    }
+    #contactsForm h1{
+        font-size: 3vw;
+    }
+    #office ul li{
+        width: 34vw;
+    }
+    #office ul{
+        flex-wrap: wrap;
+        gap: 4vw;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #office i{
+        font-size: 8vw;
+    }
+}

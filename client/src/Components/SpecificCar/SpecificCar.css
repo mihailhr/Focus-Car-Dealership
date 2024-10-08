@@ -144,3 +144,29 @@ button:hover{
         border-radius: 3vw;
     }
 }
+@media (max-width:900px) and (min-width:601px){
+    #interior{
+        height: 50vh;
+        
+    }
+    #specifics{
+        padding: 0 8vw;
+    }
+    #specifics h1{
+        width: auto;
+        font-size: 4vw;
+    }
+    #specifics p{
+        font-size: 2.6vw;
+    }
+    #specifics h2{
+        font-size: 3.5vw;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+    #continueBrowsing button{
+        font-size: 3vw;
+        padding: 1.4vw;
+        border-radius: 2vw;
+    }
+}

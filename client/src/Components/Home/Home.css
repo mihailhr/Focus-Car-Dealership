@@ -281,9 +281,11 @@ padding-top: 3vh;
     #chooseUs ul{
         flex-wrap: wrap;
         row-gap: 5vh;
+        column-gap: 4vw;
+        justify-content: space-around;
     }
     #chooseUs ul li{
-        max-width: 30vw;
+        max-width: 33vw;
     }
     #chooseUs i{
         font-size: 8vw;

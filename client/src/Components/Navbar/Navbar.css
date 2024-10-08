@@ -111,4 +111,7 @@ nav #sharedMenu #foldMenu{
         width: 17vw;
     
     }
+    nav #sharedMenu #specialLi a{
+        padding: 1vw;
+    }
 }
