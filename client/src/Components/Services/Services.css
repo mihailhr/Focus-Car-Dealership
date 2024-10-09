@@ -134,6 +134,19 @@
     #services h3{
         font-size: 4vw;
     }
+    #services p{
+        font-size: 3vw;
+    }
+    #services article h1{
+        font-size: 5vw;
+    }
+    #services article img{
+        width: 50vw;
+        aspect-ratio: 16/9;
+    }
+    #services article li p{
+        font-size: 3vw;
+    }
     #canadaAuctions, #USAAuctions, #canadaVehicles, #USAVehicles{
         padding: 0 5vw;
     }
@@ -158,6 +171,7 @@
         font-weight: 600;
         line-height: 3.5vh;
         overflow-y: visible;
+        max-width: 80vw;
     }
 }
 @media (max-width:900px) and (min-width:601px){
@@ -191,10 +205,20 @@
        text-align: center;
     }
     #satisfaction p{
-        font-size: 2.3vw;
+        font-size: 2.4vw;
+        font-weight: 600;
         line-height: 3vh;
         max-width: 70ch;
         overflow-y: hidden;
+    }
+    #providedServices p, #otherVehicles p, #otherServices p{
+        font-size: 3vw;
+    }
+    #services article h1{
+        font-size: 4vw;
+    }
+    #services article li p{
+        font-size: 3vw;
     }
 }
 @media (min-width:901px) and (max-width:1200px){

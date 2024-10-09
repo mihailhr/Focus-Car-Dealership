@@ -103,6 +103,9 @@
     #partners ul img{
       width: 80vw;  
     }
+    #partners h1{
+        font-size: 7vw;
+    }
 }
 @media (max-width:900px) and (min-width:601px){
 

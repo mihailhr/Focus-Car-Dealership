@@ -149,12 +149,15 @@ margin-bottom: 1.5vh;
 
 @media (max-width:900px) and (min-width:601px){
     #heading h1{font-size: 7vw;}
+    #email{
+        height: 110vh;
+    }
     #contactsForm{
         padding: 0 5vw;
         align-self: center;
     }
     #contactsForm h1{
-        font-size: 3vw;
+        font-size: 5vw;
     }
     #office ul li{
         width: 34vw;
@@ -167,5 +170,17 @@ margin-bottom: 1.5vh;
     }
     #office i{
         font-size: 8vw;
+    }
+    #contactsForm label{
+        font-size: 3vw;
+    }
+    #contactsForm input{
+        font-size: 2.5vw;
+    }
+    #contactsForm button{
+        font-size: 4vw;
+    }
+    #office p{
+        font-size: 2.6vw;
     }
 }
