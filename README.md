@@ -23,13 +23,13 @@ Focus Car Dealership is a simple web application for importing cars and other ve
 - Nodemailer
 
 ### Things I am currently working on
-1. Final stylization improvements
+1. Final stylization and responsiveness improvements
 2. Improving the project's overall structure
 
 
 
 
 # Deployment links
-- Client - https://focus-car-dealership-xpn1-kfoqa2kxv-mihails-projects-705a313d.vercel.app/
+- Client - https://focus-dealership.vercel.app/
 - Server - https://focus-car-dealership.onrender.com
 

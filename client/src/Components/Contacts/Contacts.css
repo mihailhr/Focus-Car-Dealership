@@ -116,7 +116,7 @@ margin-bottom: 1.5vh;
         justify-content: center;
         width: 100vw;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5)), url("/images/porsche.jpg");
+                       rgba(0, 0, 0, 0.5)), url("/images/porsche.webp");
         background-attachment: fixed;
         background-size: cover;
         background-position: center;
@@ -138,7 +138,15 @@ margin-bottom: 1.5vh;
     #office i{
         font-size: 12vw;
     }
-    #contactsForm label{color: white;}
+    #contactsForm label{color: white;
+    font-size: 4vw;}
+    #contactsForm input{
+        font-size: 3.5vw;
+        padding: 2vw;
+    }
+    #office p{
+        font-size: 3vw;
+    }
     #contactsForm button{
         border-radius: 3vw;
         font-size: 6vw;
