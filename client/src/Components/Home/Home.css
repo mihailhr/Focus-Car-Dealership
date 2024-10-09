@@ -60,7 +60,9 @@
     justify-content: space-evenly;
     align-items: center;
     padding-top:0vh;
-
+    padding-bottom: 5vh;
+    column-gap: 4vh;
+    row-gap: 3vh;
 }
 #home #steps ul li{
     width: 20vw;
@@ -79,6 +81,10 @@
     padding: 2vw;
   
     
+}
+ #steps  p{
+    font-size: 1.8vw;
+   
 }
 #transport img{
     min-width: 40vw;
@@ -108,6 +114,7 @@
     border-radius: 1vw;
     background-color: black;
     border: 2px solid white;
+    font-size: 1.8vw;
 }
 #transport a{
     text-decoration: none;
@@ -159,6 +166,7 @@
     border-radius: 1vw;
     background-color: transparent;
     border: 2px solid black;
+    font-size: 1.8vw;
 }
 
 #transportExperts{
@@ -170,6 +178,9 @@
 #transportExperts h1{
     font-size: 3.6vw;
     padding-bottom: 1vw;
+}
+#transportExperts p{
+    font-size: 1.8vw;
 }
 
 #chooseUs{

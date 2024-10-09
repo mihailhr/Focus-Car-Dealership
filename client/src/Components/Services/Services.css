@@ -35,6 +35,17 @@
     padding: 2vh 5vw;
     text-align: left;
     text-indent: 2vw;
+    font-size: 1.8vw;
+}
+#services article h1{
+    font-size: 2.2vw;
+}
+#services article img{
+    width: 20vw;
+    aspect-ratio: 16/9;
+}
+#services article li p{
+    font-size: 1.8vw;
 }
 
 #canadaAuctions,#USAAuctions,#canadaVehicles,#USAVehicles{
@@ -51,6 +62,7 @@
     align-items: center;
     flex-wrap: wrap;
     row-gap: 5vh;
+    column-gap: 5vw;
 }
 #USAAuctions ul{
     

@@ -23,7 +23,7 @@
 #email{
     display: flex;
     width: 100vw;
-    height: 110vh;
+    height: 130vh;
     
 }
 #leftPartContacts{
@@ -40,21 +40,30 @@
     width: 45vw;
     display: flex;
     flex-direction: column;
-    padding-left: 10vw;
-    padding-right: 10vw;
+    padding-left: 6vw;
+    padding-right: 6vw;
     
+}
+#contactsForm label{
+    font-size: 1.6vw;
+    overflow-y: hidden;
+    margin-bottom: 1vh;
+}
+#contactsForm input{
+    font-size: 1.4vw;
 }
 #contactsForm input{
 border-top: transparent;
 border-right: transparent;
 padding: 1vw;
+border-width: 0.3vw;
 border-radius: 10px;
 margin: 1vh;
 margin-bottom: 1.5vh;
 }
 #contactsForm h1{
     font-size: 2.3vw;
-    
+    overflow-y: hidden;
     text-align: center;
     padding-top: 3vh;
     padding-bottom: 4vh;
@@ -69,6 +78,8 @@ margin-bottom: 1.5vh;
     margin-top: 3vh;
     padding: 1vw;
     border-radius: 1vw;
+    font-size: 2vw;
+    overflow-y: hidden;
 }
 #office{
     margin-top: 5vh;
@@ -87,6 +98,9 @@ margin-bottom: 1.5vh;
     font-size: 5vw;
     overflow-y: hidden;
     color: black;
+}
+#office p{
+    font-size: 1.8vw;
 }
 
 @media (max-width:600px){

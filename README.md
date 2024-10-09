@@ -10,6 +10,7 @@ Focus Car Dealership is a simple web application for importing cars and other ve
 3. Vehicles can be sorted based on various criteria (e.g. price, mileage, etc.).
 4. The submission of the consultation form in the Contacts page automatically sends a personalized message to the given email.
 5. When checking out a particular car, clicking on the share icon copies the car URL to the user's clipboard for easy sharing.
+6. Fully responsive
 
 ## Tech stack
 
@@ -22,13 +23,10 @@ Focus Car Dealership is a simple web application for importing cars and other ve
 - Nodemailer
 
 ### Things I am currently working on
-1. Responsiveness for all resolutions
-2. Final stylization improvements
-3. Improving the project's overall structure
+1. Final stylization improvements
+2. Improving the project's overall structure
 
-#### Currently supported resolutions
-- Standard resolution (1920X1080)
-- Up to 900px screen width (most phones and tablets)
+
 
 
 # Deployment links

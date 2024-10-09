@@ -141,7 +141,7 @@ export default function Home() {
           </p>
         </section>
         <section id="sectionRight">
-          <h1>See the Latest Offers</h1>
+          <h1>Learn About Our Current Proposals</h1>
           <Link to="/offers">
             <button>See the Latest Offers</button>
           </Link>
