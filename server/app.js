@@ -93,11 +93,16 @@ app.post("/contacts", (req, res) => {
     from: EMAIL_USER, 
     to: email, 
     subject: 'Focus Car Dealership News',
-    html: `<img src="https://drive.google.com/uc?export=view&id=14S9Q-p2IpbiW1hJLsYBfoMlaCqmZOZAO" alt="Focus Dealership logo"> <br/>
+    html: `<img src="cid:logo" alt="Focus Dealership logo"> <br/>
 <p>Hello, <strong>${firstName}</strong>.</p>
 <p>We successfully received your message about a/an ${brand} ${model} with a max price of ${budget} leva and we're already on the lookout for your new car.</p>
 <p>You will receive a call from us shortly.</p>
-<p>Thank you for contacting us!</p>`
+<p>Thank you for contacting us!</p>`,
+attachments: [{
+  filename: 'Focus.png',
+  path: './images/Focus.png',  
+  cid: 'logo' 
+}]
 };
 
 transporter.sendMail(mailOptions, (error, info) => {
