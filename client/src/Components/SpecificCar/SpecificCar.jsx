@@ -4,7 +4,7 @@ import "./SpecificCar.css";
 import Notifications from "../Notification/Notifications";
 import { Link } from "react-router-dom"
 export default function SpecificCar() {
-    
+  
   const [currCar, setCurrCar] = useState({});
   const { id } = useParams();
   const [contentError, setContentError] = useState("");
