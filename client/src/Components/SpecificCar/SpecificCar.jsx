@@ -86,7 +86,7 @@ export default function SpecificCar() {
         
       <section id="interior"></section>
       {contentError ? (
-        <h1>{contentError}</h1>
+        <h1 id="error">An unexpected error occurred: The car you are looking for was not found.</h1>
       ) : (
         <div id="specifics">
           <h1>

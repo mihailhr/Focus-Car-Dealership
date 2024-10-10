@@ -96,7 +96,7 @@ app.post("/contacts", (req, res) => {
     html: `<img src="cid:logo" alt="Focus Dealership logo"> <br/>
 <p>Hello, <strong>${firstName}</strong>.</p>
 <p>We successfully received your message about a/an ${brand} ${model} with a max price of ${budget} leva and we're already on the lookout for your new car.</p>
-<p>You will receive a call from us shortly.</p>
+<p>You will receive a call from us shortly. on the phone number you provided - ${phoneNumber}</p>
 <p>Thank you for contacting us!</p>`,
 attachments: [{
   filename: 'Focus.png',

@@ -10,6 +10,7 @@ import Footer from "./Components/Footer/Footer.jsx"
 import { Routes, Route } from 'react-router-dom';
 import SpecificCar from './Components/SpecificCar/SpecificCar.jsx'
 import {useEffect} from "react"
+import NotFound from './Components/NotFound/NotFound.jsx'
 function App() {
   
   useEffect(()=>{
@@ -40,6 +41,7 @@ const welcomeMessage=`
       <Route path='/about' element={<About/>}/>
       <Route path='/contacts' element={<Contacts/>}/>
       <Route path='/offers/:id' element={<SpecificCar/>} />
+      <Route path='*' element={<NotFound/>}/>
       </Routes>
       <Footer/>
     </div>
