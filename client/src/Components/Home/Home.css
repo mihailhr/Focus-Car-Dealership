@@ -220,9 +220,16 @@ row-gap: 6vh;
     margin-bottom: 1vh;
     
 }
+#chooseUs ul li p{
+    font-size: 1.6vw;
+}
 
 
 @media (max-width:600px){
+    #chooseUs ul li p{
+        font-size: 3vw;
+        font-weight: 600;
+    }
     #steps p,#transportExperts p{
         font-size: 3.5vw;
     }
@@ -315,6 +322,9 @@ row-gap: 6vh;
     font-size: 3vw;}
 }
 @media (max-width:900px) and (min-width:601px){
+    #chooseUs ul li p{
+        font-size: 3vw;
+    }
     #steps p,#transportExperts p{
         font-size: 3.5vw;
     }
@@ -400,5 +410,10 @@ row-gap: 6vh;
     }
     #sectionRight button,#transport a{
         font-size: 3vw;
+    }
+}
+@media (min-width:901px) and (max-width:1300px){
+    #chooseUs ul li p{
+        font-size: 2vw;
     }
 }

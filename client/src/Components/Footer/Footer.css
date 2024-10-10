@@ -11,9 +11,11 @@ footer{
 #consultation{
     background-color: black;
     color: white;
-    height: 11vh;
+    padding: 3vh 5vw;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+   
+   
     align-items: center;
     font-size: 2vw;
     text-transform: uppercase;
@@ -24,7 +26,7 @@ footer{
     padding: 0.6vw;
     margin-left: 3vw;
     border-radius: 1vw;
-    border: 3px solid white;
+    border: 0.25vw solid white;
     font-size: 2vw;
     background-color: black;
     color: white;
@@ -89,7 +91,7 @@ footer #copyright{
    
     footer #consultation{
         font-size: 4.5vw;
-        height: 15vh;
+        
        
         
     }
@@ -104,8 +106,7 @@ footer #copyright{
 @media (max-width:900px) and (min-width:601px){
     footer #consultation{
         font-size: 3.9vw;
-       padding: 2vh;
-       height: 20vh;
+      gap: 5vh;
        
         
     }
