@@ -73,7 +73,7 @@ export default function Contacts() {
           <label htmlFor="lastName">Last name</label>
           <input type="text" placeholder="Doe" name="lastName" id="lastName" value={formData.lastName} onChange={handleChange} minLength={2} required/>
           <label htmlFor="phoneNumber">Phone number</label>
-          <input type="text" placeholder="0123456789" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange} minLength={8} required/>
+          <input type="number" placeholder="0123456789" id="phoneNumber" name="phoneNumber" value={formData.phoneNumber} onChange={handleChange}  required/>
           <label >Email</label>
           <input type="email" placeholder="youremail@gmail.com" name="email" value={formData.email} onChange={handleChange} minLength={8} required/>
           <label >Preferred brand</label>
